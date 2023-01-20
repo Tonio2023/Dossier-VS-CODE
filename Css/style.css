@@ -235,7 +235,7 @@ input::placeholder {
     margin: 0;
     width: 90px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     height: 40px;
     display: flex;
@@ -329,7 +329,7 @@ input::placeholder {
     margin: 0;
     width: 110px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     height: 40px;
     display: flex;
@@ -375,7 +375,7 @@ input::placeholder {
     margin: 0;
     width: 90px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     height: 40px;
     display: flex;
@@ -424,8 +424,7 @@ input::placeholder {
 .Conteneurcards {
     display: flex;
     flex-direction: row;
-    background-color:rgb(163, 248, 107) ;
-    margin-top: 25px;
+    margin-top: 39px;
     margin-left: 50px;
     width: 1340px;
     height: 626px;
@@ -442,7 +441,6 @@ input::placeholder {
 }
 
 h2 {
-    background-color: brown;
     font-family: 'Raleway', sans-serif;
     width: 278px;
     height: 26px;
@@ -455,30 +453,36 @@ h2 {
 /***************************cards1*******************************/
 .cards1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     height: 428px;
     width: 800px;
     margin-left:40px;
-    margin-top: 23px;
+    margin-left: 40px;
+    margin-top: 8px;
+    
 
 }
 
 /*******************card1*********************/
 
 .card1 {
-    width: 246px;
-    height: 199px;
+    width: 236px;
+    height: 189px;
     border-radius: 20px;
     border-color: white;
     border-width: 5px;
     border-style: solid;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 .card1 img {
-    height:124px;
+    height:114px;
     object-fit:cover;
     width:100%;
     border-radius: 15px 15px 0 0;
+    
 }
 .card1 h4 {
     width: 204px;
@@ -488,36 +492,41 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     color: #000000;
     margin:0;
-    margin-left: 16px;
-    margin-top: 2px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .card1 p {
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 9px;
     margin-bottom: 0;
+    font-weight: 300;
+    font-size:15px;
 }
 
 
 /*********card2**********/
 
 .card2 {
-    width: 246px;
-    height: 199px;
+    width: 236px;
+    height: 189px;
     border-radius: 20px;
     border-color: white;
     border-width: 5px;
     border-style: solid;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 31px;
 }
 .card2 img {
-    height:124px;
+    height:114px;
     object-fit:cover;
     width:100%;
     border-radius: 15px 15px 0 0;
+    
 }
 .card2 h4 {
     width: 204px;
@@ -527,36 +536,42 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     color: #000000;
     margin:0;
-    margin-left: 16px;
-    margin-top: 2px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .card2 p {
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 9px;
     margin-bottom: 0;
+    font-weight: 300;
+    font-size:15px;
 }
+
 
 
 /***************card3****************/
 
 .card3 {
-    width: 246px;
-    height: 199px;
+    width: 236px;
+    height: 189px;
     border-radius: 20px;
     border-color: white;
     border-width: 5px;
     border-style: solid;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 31px;
 }
 .card3 img {
-    height:124px;
+    height:114px;
     object-fit:cover;
     width:100%;
     border-radius: 15px 15px 0 0;
+    
 }
 .card3 h4 {
     width: 204px;
@@ -566,17 +581,149 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     color: #000000;
     margin:0;
-    margin-left: 16px;
-    margin-top: 2px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .card3 p {
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 9px;
     margin-bottom: 0;
+    font-weight: 300;
+    font-size:15px;
+}
+
+/**************card4*************/
+
+.card4 {
+    width: 236px;
+    height: 189px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 30px;
+}
+.card4 img {
+    height:114px;
+    object-fit:cover;
+    width:100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+.card4 h4 {
+    width: 204px;
+    height: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin:0;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.card4 p {
+    margin-left: 10px;
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size:15px;
+}
+
+/***************card5*************/
+.card5 {
+    width: 236px;
+    height: 189px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+.card5 img {
+    height:114px;
+    object-fit:cover;
+    width:100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+.card5 h4 {
+    width: 204px;
+    height: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin:0;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.card5 p {
+    margin-left: 10px;
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size:15px;
+}
+
+
+/**************card6*************/
+
+.card6 {
+    width: 236px;
+    height: 189px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+.card6 img {
+    height:114px;
+    object-fit:cover;
+    width:100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+.card6 h4 {
+    width: 204px;
+    height: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin:0;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.card6 p {
+    margin-left: 10px;
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size:15px;
 }
 
 
@@ -588,7 +735,7 @@ h2 {
 
 .stars {
     display: flex;
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 9px;
     margin-bottom: 11px;
     height: 12px;
@@ -610,7 +757,6 @@ h2 {
 .Afficherplus {
     display: flex;
     text-decoration: none;
-    background-color: coral;
     width: 107px;
     height: 21px;
     font-family: 'Raleway', sans-serif;
@@ -640,6 +786,7 @@ color: #000000;
 /*********************BLOCK2************************/
 .Block2 {
     display: flex;
+    flex-direction: column;
     background-color:#F2F2F2;
     font-family: 'Raleway', sans-serif;
     width: 420px;
@@ -647,4 +794,26 @@ color: #000000;
     margin-left:40px;
     border-radius: 20px;
 
+}
+
+
+.lespluspop {
+    display: flex;
+    height: 78px;
+    width: 378px;
+    background-color: aqua;
+
+}
+
+.lespluspop i {
+    margin-top: 45px;
+    padding-left: 46px;
+    font-size:larger;
+    color: #0065FC;
+}
+
+.cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
