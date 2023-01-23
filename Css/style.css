@@ -1325,3 +1325,231 @@ a.card9 p:visited {
 
 
 }
+
+
+
+
+/************************************* FOOTER ***********************************/
+
+.backdiv {
+    background-color: #F2F2F2;
+    margin-top: 61px;
+    margin-left: 48px;
+    margin-right: 53px;
+    height: 225px;
+    display: flex;
+}
+
+/******************* à propos *******************/
+.àpropos {
+    width: 194px;
+    height: 167px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h4footer {
+    margin-top: 45px;
+    width: 77px;
+    
+}
+/*****h4*******/
+.h4àprop {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+color: #000000;
+
+}
+/***fonctionnement****/
+.fonctionne {
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    height: 19px;
+    
+    
+}
+
+.fonctionne a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+/**conditionsgénérales**/
+.conditions {
+    background-color: rgb(240, 240, 240);
+    margin-top: 12px;
+    height: 19px;
+    
+    
+}
+
+.conditions a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+/****données et confidentialités***/
+.données {
+    background-color: rgb(240, 240, 240);
+    margin-top: 12px;
+    height: 19px;
+    
+    
+}
+
+.données a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+
+/**************nos hébergements*****************/
+
+
+
+.noshébergements {
+    width: 165px;
+    height: 167px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h4footer {
+    margin-top: 45px;
+    width: 165px;
+    
+}
+/*****h4*******/
+.h4noshéberg {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+/*** charte qualité ***/
+.charte {
+    margin-top: 20px;
+    height: 19px;
+    
+    
+}
+
+.charte a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+/** proposer votre hôtel**/
+.proposer {
+    margin-top: 12px;
+    height: 19px;
+    
+    
+}
+
+.proposer a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+/**************** assistance ***************/
+
+.assistance {
+    width: 194px;
+    height: 167px;
+    margin-left: 239px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h4footer {
+    margin-top: 45px;
+    width: 165px;
+    
+}
+/*****h4*******/
+.h4assis {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+/*** centre d'aide****/
+.Centre {
+    margin-top: 20px;
+    height: 19px;
+    
+    
+}
+
+.Centre a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+/** nous contacter **/
+.contact {
+    margin-top: 12px;
+    height: 19px;
+    
+    
+}
+
+.contact a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
