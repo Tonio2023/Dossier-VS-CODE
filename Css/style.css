@@ -8,12 +8,13 @@ html{
     max-width: 1440px;
 }
 
+
 /**************************** HEADER ****************************/
 
 header {
     display: flex;
     justify-content:space-between;
-}
+}  
 
 .logoheader {
     margin-left: 50px;
@@ -853,6 +854,10 @@ color: #000000;
 
 }
 
+@media screen and (max-width: 992px) {}
+    
+
+
 
 
 
@@ -1172,6 +1177,7 @@ a.card9 p:visited {
     margin-left: 50px;
     margin-right: 53px;
     margin-top: 18px;
+    width: 1337px;;
     
 
 }
@@ -1336,14 +1342,16 @@ a.card9 p:visited {
     margin-top: 61px;
     margin-left: 48px;
     margin-right: 53px;
+    width:1339px;
     height: 225px;
     display: flex;
+    flex-direction: row;
 }
 
 /******************* à propos *******************/
 .àpropos {
     width: 194px;
-    height: 167px;
+    height: 190px;
     margin-left: 70px;
     display: flex;
     flex-direction: column;
@@ -1369,9 +1377,9 @@ color: #000000;
 }
 /***fonctionnement****/
 .fonctionne {
-    background-color: rgb(240, 240, 240);
     margin-top: 20px;
     height: 19px;
+    width: 100%;
     
     
 }
@@ -1387,7 +1395,6 @@ color: #000000;
 }
 /**conditionsgénérales**/
 .conditions {
-    background-color: rgb(240, 240, 240);
     margin-top: 12px;
     height: 19px;
     
@@ -1405,7 +1412,6 @@ color: #000000;
 }
 /****données et confidentialités***/
 .données {
-    background-color: rgb(240, 240, 240);
     margin-top: 12px;
     height: 19px;
     
