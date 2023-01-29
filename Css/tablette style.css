@@ -1,0 +1,273 @@
+/**************************************************** TABLETTE *******************************************************/
+
+
+
+@media screen and (min-width:768px ) and (max-width:1024px) {
+    body {
+        padding: 0px 70px;
+    }
+
+    .activite{
+        padding-left: 0;
+    }
+
+    .heberg {
+        padding:0;
+        padding-right: 68px;
+        color: #000000;
+
+        
+    }
+
+
+    a.heberg:visited 	{ color:#000000; }
+
+    .heberg:hover {
+        border-top: 3px solid #ffffff;
+        border-width: 112px;
+    }
+    
+    /*****form*****/
+
+
+    .buttonmobile {
+        display: none;
+    }
+
+    /*****filtres****/
+    .Filtres {
+        width: 95%;
+        gap:0px;
+        justify-content: space-between;
+    }
+    .filtrepara{
+        width: 7%;
+    }
+    .Economique {
+        width: 17%;
+    }
+
+    .Familial {
+        width: 13%;
+        padding: 0 7px;
+    }
+    
+    .Romantique {
+        width: 17%;
+        padding-left: 6px;
+        padding-right: 6px;
+        gap: 0px;
+
+    } 
+    .Romantique p {
+        padding-left: 6px;
+    }
+    .Animaux {
+        width: 25%;
+        padding-right: 14px;
+    }
+
+
+    /*******sections cartes*******/
+
+    .Conteneurcards {
+        display: flex;
+        flex-direction:column;
+        height: 957px;
+        width: 100%;
+    }
+
+    .Block1 {
+        width: 100%;
+    }
+    .Block2 {
+        display: flex;
+        flex-direction:column;
+        margin:0;
+        margin-top: 53px;
+        width: 100%;
+        height: 278px;
+    }
+    
+    .lespluspop {
+        width:95%;
+        height: 60px;
+    }
+    .lespluspop h2 {
+        width: 785px;
+        margin: 0;
+        margin-top: 34px;
+        margin-left: 40px;
+    }
+    .lespluspop i {
+        margin: 0;
+        margin-top: 39px;
+
+    }
+
+    /****cards2****/
+
+    .cards2 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 26px;
+        width: 90%;
+        justify-content: space-between;
+        margin-left: 40px;
+        
+    }
+
+    .card7, .card8, .card9 {
+        width: 31%;
+        height: 144px;
+        margin: 0;    
+    }
+    .container7, .container8, .container9 {
+        width: 54%;
+    }
+    .card7 img, .card8 img, .card9 img {
+        width: 40%;
+        height: 144px;
+    }
+    .card7 h4 {
+        width: 100%;
+        height:32px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0;
+    }
+    .card7 p {
+        width: 100%;
+        height:30px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 0;
+        margin-top: 7px;
+        margin-bottom: 45px;
+    }    
+
+
+    .card8 h4 {
+        width: 105px;
+        height:57px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0;
+    }
+    .card8 p {
+        width: 100%;
+        height:30px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 0;
+        margin-bottom: 28px;
+    }    
+    
+
+    .card9 h4 {
+        width: 105px;
+        height:32px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0;
+    }
+    .card9 p {
+        width: 100%;
+        height:30px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 0;
+        margin-top: 7px;
+        margin-bottom: 45px;
+    }    
+
+    .starscards2 {
+        display: flex;
+        margin: 0;
+        margin-bottom: 11px;
+        height: 12px;
+        gap:2px;    
+    }
+
+    /** activités à marseille **/
+
+    .Conteneurcards2 {
+        width: 878px;
+        height: 267px;
+    }
+
+
+    .card10 {
+        width: 302px;
+        height: 267px;
+    }
+
+    .card10 p {
+        padding-top: 10px;
+
+    }
+
+    .card10 a, .card11 a, .card12 a, .card13 a {
+        display: contents;
+    }
+
+    .card10 img, .card11 img, .card12 img, .card13 img {
+        width: 100%;
+        height: 211px;
+        object-fit:cover;
+    }
+
+    
+    .card11 {
+        width: 302px;
+        height: 267px;
+
+    }
+
+    .card11 p {
+        padding-top: 10px;
+
+    }
+    .card12 {
+        width: 302px;
+        height: 267px;
+
+    }
+
+    .card12 p {
+        margin: 0;
+        padding-top: 9px;
+        padding-left: 19px;    
+    }
+    
+    .card13 {
+        width: 302px;
+        height: 267px;
+
+    }
+
+
+    .card13 p {
+        margin: 0;
+        padding-top: 9px;
+        margin-left: 19px;
+    }
+
+    
+    
+    
+
+    /**********footer*********/
+    .Conteneurcards2 {
+        width: 100%;
+    }
+
+
+
+
+
+}
+

@@ -1,0 +1,371 @@
+/***************************************** mobile ****************************************/
+
+@media screen and (max-width:767px) {
+
+    body {
+        padding: 0;
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoheader {
+        margin: 0;
+        margin-top: 21px;
+    }
+    .logomobile {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 48px;
+        display: flex;
+        justify-content: center;
+    }
+/**************************/
+
+    nav.navig {
+        width: 100%;
+        padding: 0;
+        height: 43px;
+    }
+    .hebergmobil, .activmobil {
+        width: 50%;
+        height: 43px;
+        display: flex;
+        justify-content: center;
+    }
+    .heberg, .activite {
+        width: auto;
+        padding: 0;
+    }
+
+    .hebergmobil:hover {
+        border-bottom: 3px solid #0065FC;
+    }
+    .heberg:hover {
+        border-top: 1px solid #ffffff
+        
+    }
+    .activmobil {
+        border-bottom: 3px solid #F2F2F2;
+
+    }
+
+    /********************************/
+
+    h1 {
+        width: 100%;
+        height: 52px;
+        font-size: 22px;
+        line-height: 26px;
+        margin:0;
+        padding: 0;
+        font-weight: 700;
+        margin-top: 57px;
+
+        
+        
+    }
+    
+    .titre1 {
+        margin-left: 20px;
+    }
+
+    /*********formulaire********/
+    form {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .map{
+        margin-top: 0px;
+        margin-left: 0;
+    }
+
+    input {
+        height: 43.5px;
+        margin: -2px;
+        margin-left: -5px;
+        padding: 4px;
+        padding-right: 10px;
+        width: 215px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #F2F2F2;
+        border-top-color: #F2F2F2;
+        border-left: 0em;
+        border-right: 0em;
+        padding-bottom: 2.5px;
+    }
+
+    .placeholder-fix {
+        margin: 0;
+    }
+    
+    .buttondesktop {
+        display: none;
+    }
+
+    .buttonmobile {
+        display: flex;
+    }
+
+    .formul button {
+        width: 49px;
+        height: 51px;
+        margin-left: -5px;
+        color: white;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15px;
+        padding-bottom: 20px;
+      }
+    
+
+
+    /*******************filtres******************/
+
+    .Filtres {
+        margin-top: 28px;
+        height: 172px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:0px;
+    }
+    
+    .filtrepara {
+        margin: 0;
+        margin-left: 20px;
+        height: 20px;        
+    }
+    .mobilepara {
+        width: 100%;
+    }
+    
+    .parafiltre {
+        margin: -16px;
+        padding: 0;
+    }
+
+    
+    .Economique {
+        width: 32%;
+        height: 50px;
+        gap: 6px;
+        border-radius: 30px;
+        
+    }
+    
+    .Economique p {
+        padding-top: 6px;
+        font-size: 11px;
+
+    }
+
+    .Economique i {
+        font-size: medium;
+        padding-left: 2px;
+        padding-top: 6px;
+    }
+    
+
+    .Familial {
+        width: 32%;
+        margin-left: 14px;
+        height: 50px;
+        gap: 5px;
+        border-radius: 30px;
+        
+    }
+    
+    .Familial p {
+        padding-top: 6px;
+        font-size: 11px;
+        margin-right: ;
+
+    }
+
+    .Familial i {
+        font-size:25px;
+        padding-top: 5px;
+        padding-left: 5px;
+
+    }
+
+    .Romantique {
+        width: 32%;
+        height: 50px;
+        gap: 5px;
+        border-radius: 30px;
+
+    }
+
+    .Romantique p {
+        font-size: 11px;
+        padding-top: 6px;
+
+
+    }
+
+    .Romantique i {
+        padding-top: 6px;
+    }
+
+    .Animaux {
+        width: 32%;
+        margin-left: 14px;
+        height: 50px;
+        gap: 6px;
+        border-radius: 30px;
+    }
+    .Animaux p {
+        font-size: 11px;
+        width:39px;
+        padding-top: 6px;
+        margin-right: 5px;
+        
+    }
+
+    .Animaux i {
+        padding-top: 6px;
+    }
+    /************ conteneur cars2 *************/
+
+    .Conteneurcards {
+        display: flex;
+        background-color: aqua;
+        justify-content: flex-start;
+        flex-direction:column;
+        margin-top: 39px;
+        width: 100%;
+        height: 1973px;
+    }
+
+    
+    .Block2 {
+        width: 100%;
+        margin: 0;
+        height: 580px;
+        border-radius: 0;
+    }
+    
+    .lespluspop {
+        width: 109%;
+        height: 60px;
+    }
+    .lespluspop h2 {
+        margin-left: 20px;
+        margin-top: 28px;
+    }
+    .lespluspop i {
+        margin-top: 35px;
+    }
+    
+    .card7, .card8, .card9 {
+        width: 88%;
+    }
+    .card8, .card9 {
+        margin-top: 11px;
+    }
+    
+    .starscards2 {
+        margin-top: 27px;
+    }
+    
+    
+    
+    .Block1 {
+        order:2;
+        width: 100%;
+        height: 1393px;
+        background-color: #ffffff;
+        border-radius: 0;
+    
+    }
+    .Block1 h2 {
+        margin-top: 26px;
+    }
+    .cards1 {
+        margin-left: 0;
+        width: 100%;
+        height: 1314px;
+    }
+    .line1, .line2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+    .line2 {
+        margin-top: 12px;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 88%;
+        height: 199px;
+    }
+    .Afficherplus {
+        display: none;
+    }
+    /***************section2***************/
+
+    .section2 {
+        height: 1028px;
+    }
+    .h2section2 {
+        margin: 0;
+        margin-top: 105px;
+        margin-left: 22px;
+        width: 30%;
+        height: 51px;
+    }
+    .Conteneurcards2 {
+        flex-direction: column;
+        height: 969px;
+        margin-top: 8px;
+        gap: 24px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .card10, .card11, .card12, .card13 {
+        width: 88%;
+        height: 190px;
+    }
+
+    .card10 img, .card11 img, .card12 img, .card13 img {
+        height: 70%;
+    }
+
+    /******************footer******************/
+
+    footer {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        height: 501px;
+    }
+
+    .àpropos, .noshébergements, .assistance {
+        width: 86%;
+    }
+    .àpropos {
+        padding: 0;
+        height: 165px;
+    }
+
+
+
+
+
+
+}
+
+
