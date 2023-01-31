@@ -249,95 +249,33 @@ input::placeholder {
     cursor: pointer;
 }
 
-.Economique i {
+.Economique i, .Familial i, .Romantique i, .Animaux i {
     height: 40px;
     display: flex;
     align-items: center;
     padding-left: 0px;
     color: #0065FC;
-
-
 }
-
-.Economique p {
-    margin: 0;
-    width: 90px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    padding-left: 1px;
-    padding-right: 6px;
-}
-
 
 .Familial i {
-    height: 40px;
-    display: flex;
-    align-items: center;
     padding-left: 30px;
     font-size:larger;
-    color: #0065FC;
-
-
+    
+    
 }
-
-.Familial p {
-    margin: 0;
-    width: 90px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    margin-left: 4px;
-}
-
-
 .Romantique i {
-    height: 40px;
-    display: flex;
-    align-items: center;
     padding-left: 16px;
-    color: #0065FC;
     width: 20px;
     font-size: larger;
 }
 
-.Romantique p {
-    margin: 0;
-    width: 110px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
-
-
-.Animaux {
-    padding-right: 18px;
-    
-}
-
 .Animaux i {
     height: 40px;
-    display: flex;
-    align-items: center;
-    color: #0065FC;
     font-size: larger;
 }
 
-.Animaux p {
+.Economique p, .Familial p, .Romantique p, .Animaux p {
     margin: 0;
-    width: 90px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -345,7 +283,29 @@ input::placeholder {
     display: flex;
     align-items: center;
     color: #000000;
+}
+.Economique p {
+    width: 90px;
+    padding-left: 1px;
+    padding-right: 6px;
+}
+
+.Familial p {
+    margin-left: 4px;
+    width: 90px;
+}
+
+.Romantique p {
+    width: 110px;
+}
+
+
+.Animaux p {
     width: 64px;
+}
+
+.Animaux {
+    padding-right: 18px;
 }
 
 /*****************Paragraphe******************/
@@ -709,18 +669,18 @@ a.card7 p:visited, a.card8 p:visited, a.card9 p:visited {
 
 }
 
-.card10 a {
+.card10 a, .card11 a, .card12 a, .card13 a {
     display: contents;
 }
 
-.card10 img {
+.card10 img, .card11 img, .card12 img, .card13 img {
     width: 100%;
     height: 389px;
     object-fit:cover;
     border-radius: 20px 20px 0 0 ;
 }
 
-.card10 p {
+.card10 p, .card11 p, .card12 p, .card13 p {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -732,91 +692,6 @@ a.card7 p:visited, a.card8 p:visited, a.card9 p:visited {
     padding-bottom: 21px;
     margin-left: 19px;
 }
-
-/**************card11*************/
-
-
-.card11 a {
-    display: contents;
-}
-
-.card11 img {
-    width: 100%;
-    height: 389px;
-    object-fit:cover;
-    border-radius: 20px 20px 0 0 ;
-}
-
-.card11 p {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 21px;
-    margin-left: 19px;
-}
-
-/**************card12***************/
-
-
-.card12 a {
-    display: contents;
-}
-
-.card12 img {
-    width: 100%;
-    height: 389px;
-    object-fit:cover;
-    border-radius: 20px 20px 0 0 ;
-}
-
-.card12 p {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 21px;
-    margin-left: 19px;
-
-
-}
-
-/***************card13**************/
-
-
-.card13 a {
-    display: contents;
-}
-
-.card13 img {
-    width: 100%;
-    height: 389px;
-    object-fit:cover;
-    border-radius: 20px 20px 0 0 ;
-}
-
-.card13 p {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 21px;
-    margin-left: 19px;
-}
-
-
 
 /************************************* FOOTER ***********************************/
 

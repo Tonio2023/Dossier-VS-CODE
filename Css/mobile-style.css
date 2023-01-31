@@ -124,6 +124,9 @@
         padding-bottom: 20px;
       }
     
+      .formul button:hover {
+        cursor: pointer;
+      }
 
 
     /*******************filtres******************/
@@ -290,6 +293,7 @@
     }
     .Block1 h2 {
         margin-top: 26px;
+        margin-left: 20px;
     }
     .cards1 {
         margin-left: 0;
@@ -342,6 +346,9 @@
 
     .card10 img, .card11 img, .card12 img, .card13 img {
         height: 70%;
+    }
+    .card13 img {
+        object-position: top;
     }
 
     /******************footer******************/
