@@ -36,21 +36,40 @@
         display: flex;
         justify-content: center;
     }
-    .heberg, .activite {
-        width: auto;
+    .heberg {
+        width:100%;
         padding: 0;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .activite {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
 
-    .hebergmobil:hover {
-        border-bottom: 3px solid #0065FC;
-    }
     .heberg:hover {
-        border-top: 1px solid #ffffff
-        
+        border-top: #ffffff;
     }
-    .activmobil {
-        border-bottom: 3px solid #F2F2F2;
-
+    .activite:hover {
+        border-top: #ffffff;
+    }
+    nav a:hover {
+        color: #000000;
+    } 
+    nav a:focus {
+        color:#0065fc;
+    }
+    
+    .heberg:focus {
+        border-bottom: 3px solid #0065fc;
+        text-decoration: #0065fc;
+    }
+    .activite:focus {
+        border-bottom: 3px solid #0065fc;
+        text-decoration: #0065fc;
     }
 
     /********************************/
@@ -220,7 +239,6 @@
 
     .Conteneurcards {
         display: flex;
-        background-color: aqua;
         justify-content: flex-start;
         flex-direction:column;
         margin-top: 39px;
@@ -237,19 +255,23 @@
     }
     
     .lespluspop {
-        width: 109%;
+        width: 87%;
         height: 60px;
     }
     .lespluspop h2 {
-        margin-left: 20px;
+        width: 87%;
         margin-top: 28px;
     }
     .lespluspop i {
         margin-top: 35px;
     }
+    .cards2 {
+        width: 88%;
+
+    }
     
     .card7, .card8, .card9 {
-        width: 88%;
+        width: 98%;
     }
     .card8, .card9 {
         margin-top: 11px;
@@ -267,11 +289,16 @@
         height: 1393px;
         background-color: #ffffff;
         border-radius: 0;
+        display: flex;
+        align-items: center;
     
     }
     .Block1 h2 {
+        margin: 0;
         margin-top: 26px;
-        margin-left: 20px;
+        width:88%;
+
+        
     }
     .cards1 {
         margin-left: 0;
@@ -289,7 +316,7 @@
     .line2 {
         margin-top: 12px;
     }
-    .card1, .card2, .card3, .card4, .card5, .card6 {
+    .carte {
         width: 88%;
         height: 199px;
     }
@@ -304,7 +331,7 @@
     .h2section2 {
         margin: 0;
         margin-top: 105px;
-        margin-left: 22px;
+        margin-left: 6%;
         width: 30%;
         height: 51px;
     }

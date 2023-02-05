@@ -2,27 +2,46 @@
 
 
 
-@media screen and (min-width:768px ) and (max-width:1024px) {
+@media screen and (min-width:768px ) and (max-width:991px) {
     body {
         padding: 0px 70px;
     }
 
     .activite{
-        padding-left: 0;
+        padding:0;
+        padding-left: 26px;
+        padding-right: 26px;
+        padding-top: 44px;
     }
 
     .heberg {
         padding:0;
-        padding-right: 68px;
+        padding-right: 26px;
+        padding-left: 26px;
+        padding-top: 44px;
         color: #000000;
     }
-
-
-    a.heberg:visited 	{ color:#000000; }
-
+    
     .heberg:hover {
-        border-top: 3px solid #ffffff;
-        border-width: 112px;
+        border-top: #ffffff;
+    }
+    .activite:hover {
+        border-top: #ffffff;
+    }
+    nav a:hover {
+        color: #000000;
+    } 
+    nav a:focus {
+        color:#0065fc;
+    }
+    
+    .heberg:focus {
+        border-top: 3px solid #0065fc;
+        text-decoration: #0065fc;
+    }
+    .activite:focus {
+        border-top: 3px solid #0065fc;
+        text-decoration: #0065fc;
     }
     
     /*****form*****/
@@ -88,14 +107,13 @@
     }
     
     .lespluspop {
-        width:95%;
+        width:90%;
         height: 60px;
     }
     .lespluspop h2 {
-        width: 785px;
+        width: 87%;
         margin: 0;
         margin-top: 34px;
-        margin-left: 40px;
     }
     .lespluspop i {
         margin: 0;
@@ -110,7 +128,6 @@
         margin-top: 26px;
         width: 90%;
         justify-content: space-between;
-        margin-left: 40px;
     }
 
     .card7, .card8, .card9 {

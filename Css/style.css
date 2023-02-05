@@ -1,7 +1,5 @@
-* {
-  outline: 0;
+* { outline: 0;
 }
-
 html {
   font-family: "Raleway", sans-serif;
 }
@@ -10,6 +8,13 @@ body {
   padding: 0 50px;
   margin: 0 auto;
   max-width: 1440px;
+}
+
+@media screen and (min-width:992px ) and (max-width:1250px) {
+  body { 
+    padding:10px;
+  }
+
 }
 
 /**************************** HEADER ****************************/
@@ -35,27 +40,20 @@ header {
   justify-content: flex-end;
   padding-top: 47px;
   padding-bottom: 10px;
-  padding-right: 27px;
 }
 
 .heberg {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
+  color: #000000;
   font-size: 16px;
-  /*text-size-adjust: 113px;*/
   padding-right: 26px;
   padding-left: 26px;
   padding-top: 44px;
   width: 162px;
 }
 
-a.heberg:visited {
-  color: #0065fc;
-}
 
-.heberg:hover {
-  border-top: 3px solid #0065fc;
-}
 
 .activite {
   text-decoration: none;
@@ -65,10 +63,20 @@ a.heberg:visited {
   font-size: 16px;
   width: 25px;
   padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 44px;
 }
 
-a.activite:visited {
-  color: black;
+.heberg:hover {
+  border-top: 3px solid #0065fc;
+  text-decoration: #0065fc;
+}
+.activite:hover {
+  border-top: 3px solid #0065fc;
+  text-decoration: #0065fc;
+}
+nav a:hover {
+  color: #0065fc;
 }
 
 /*********************************************MAIN********************************************/
@@ -397,12 +405,7 @@ h2 {
 
 /*******************card1 2 3 4 5 6*********************/
 
-.card1,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6 {
+.carte {
   width: 236px;
   height: 189px;
   border-radius: 20px;
@@ -414,42 +417,22 @@ h2 {
   transition: 0.3s;
 }
 
-.card1:hover,
-.card2:hover,
-.card3:hover,
-.card4:hover,
-.card5:hover,
-.card6:hover {
+.carte:hover {
   cursor: pointer;
 }
 
-.card1 a,
-.card2 a,
-.card3 a,
-.card4 a,
-.card5 a,
-.card6 a {
+.carte a {
   display: contents;
 }
 
-.card1 img,
-.card2 img,
-.card3 img,
-.card4 img,
-.card5 img,
-.card6 img {
+.carte img {
   height: 114px;
   object-fit: cover;
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
-.card1 h4,
-.card2 h4,
-.card3 h4,
-.card4 h4,
-.card5 h4,
-.card6 h4 {
+.carte h4 {
   width: 98%;
   height: 19px;
   font-family: "Raleway";
@@ -464,12 +447,7 @@ h2 {
   overflow: hidden;
 }
 
-.card1 p,
-.card2 p,
-.card3 p,
-.card4 p,
-.card5 p,
-.card6 p {
+.carte p {
   margin-left: 10px;
   height: 16px;
   margin-top: 9px;
@@ -480,12 +458,7 @@ h2 {
   color: #000000;
 }
 
-a.card1 p:visited,
-a.card2 p:visited,
-a.card3 p:visited,
-a.card4 p:visited,
-a.card5 p:visited,
-a.card6 p:visited {
+a.carte p:visited {
   color: #000000;
 }
 
@@ -535,6 +508,7 @@ a.card6 p:visited {
 .Block2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #f2f2f2;
   font-family: "Raleway", sans-serif;
   width: 31%;
@@ -545,8 +519,9 @@ a.card6 p:visited {
 
 .lespluspop {
   display: flex;
+  justify-content: space-between;
   height: 78px;
-  width: 100%;
+  width: 80%;
   color: #000000;
 }
 
@@ -558,6 +533,10 @@ a.card6 p:visited {
   line-height: 26px;
   font-weight: 600;
   color: #000000;
+  margin: 0;
+  margin-top: 42px;
+  width: 87%;
+
 }
 
 .lespluspop i {
