@@ -59,15 +59,15 @@
     nav a:hover {
         color: #000000;
     } 
-    nav a:focus {
+    nav a:active {
         color:#0065fc;
     }
     
-    .heberg:focus {
+    .heberg:active {
         border-bottom: 3px solid #0065fc;
         text-decoration: #0065fc;
     }
-    .activite:focus {
+    .activite:active {
         border-bottom: 3px solid #0065fc;
         text-decoration: #0065fc;
     }

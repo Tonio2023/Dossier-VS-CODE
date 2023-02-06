@@ -67,15 +67,15 @@ header {
   padding-top: 44px;
 }
 
-.heberg:hover {
+.heberg:active {
   border-top: 3px solid #0065fc;
   text-decoration: #0065fc;
 }
-.activite:hover {
+.activite:active {
   border-top: 3px solid #0065fc;
   text-decoration: #0065fc;
 }
-nav a:hover {
+nav a:active {
   color: #0065fc;
 }
 
