@@ -89,11 +89,19 @@
         margin-left: 20px;
     }
 
+    .titre1 p {
+        width: 90%;
+    }
+
     /*********formulaire********/
     form {
         display: flex;
         justify-content: center;
         margin: 0;
+    }
+
+    .formobile {
+        width: 64%;
     }
 
     .map{
@@ -332,7 +340,7 @@
         margin: 0;
         margin-top: 105px;
         margin-left: 6%;
-        width: 30%;
+        width: 35%;
         height: 51px;
     }
     .Conteneurcards2 {
