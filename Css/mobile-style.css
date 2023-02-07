@@ -50,21 +50,11 @@
         justify-content: center;
     }
 
-    .heberg:hover {
-        border-top: #ffffff;
-    }
-    .activite:hover {
-        border-top: #ffffff;
-    }
-    nav a:hover {
-        color: #000000;
-    } 
     nav a:focus {
         color:#0065fc;
     }
-    
     .heberg:focus {
-
+        
         border-bottom: 3px solid #0065fc;
         text-decoration: #0065fc;
     }
